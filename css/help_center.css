@@ -1,0 +1,118 @@
+body{
+	min-width: 1200px;
+	font-family:"微软雅黑";
+}
+.nav{
+	width:1200px;
+	height: 85px;
+	margin: 0 auto;
+}
+.nav .logo{
+	width:92px;
+	height: 85px;
+	float: left;
+	background: url(../images/au_logo.png) no-repeat center center;
+}
+.nav ul{
+	float:right;
+	margin-right: 40px;
+}
+.nav li{
+	float: left;
+	margin:0 40px;
+	height:100px;
+}
+.nav li a{
+	color:#333;
+	font-size: 18px;
+	line-height: 85px;
+}
+.nav li.current a{
+	color:#017bff;
+}
+.main_content{
+	width: 100%;
+	min-height: 1000px;
+	background: #ededed;
+}
+.main_content .main{
+	width: 1200px;
+	min-height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main_content .main .main_l{
+	width:220px;
+	height: 355px;
+	background: #fff;
+	border-radius: 5px;
+	float:left;
+	margin-top: 30px;
+}
+.main_content .main .main_l li{
+	width:220px;
+	height: 70px;
+	text-align: center;
+	color:#333;
+	font-size: 16px;
+	line-height: 70px;
+	border-bottom: 1px solid #e3e3e3;
+	cursor: pointer;
+}
+.main_content .main .main_l li.current{
+	color:#017bff;
+}
+.main_content .main .main_l li.last{
+	border: none;
+}
+.main_content .main .main_r{
+	float:left;
+	margin-left: 20px;
+	min-height: 675px;
+	width: 960px;
+	background: #fff;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+.main_content .main .main_r .b_ul{
+	width: 900px;
+	overflow: hidden;
+	margin:0 auto;
+}
+.main_content .main .main_r .b_ul .b_li{
+	display: none;
+}
+.main_content .main .main_r .b_ul .b_li.first{
+	display: block;
+}
+.main_content .main .main_r .b_ul .s_li{
+	border-bottom: 1px solid #e3e3e3;
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+}
+.main_content .main .main_r .b_ul .s_li.more{
+	height: auto;
+}
+.main_content .main .main_r .b_ul .s_li h5{
+	color:#017bff;
+	font-size: 16px;
+	line-height: 75px;
+	padding-left: 22px;
+	background: url(../images/less_help.png) no-repeat center left;
+	user-select: none; 
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	cursor: pointer;
+}
+.main_content .main .main_r .b_ul .s_li.more h5{
+	background: url(../images/more_help.png) no-repeat center left;
+}
+.main_content .main .main_r .b_ul .s_li p{
+	color:#333;
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 25px;
+	display: none;
+}
